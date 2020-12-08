@@ -1,6 +1,5 @@
 const getTheTitles = function(books) {
-    const titles = books.map(book=> book.title);
-    return titles;
+    return titles = books.map(book=> book.title);
 }
 
 module.exports = getTheTitles;
